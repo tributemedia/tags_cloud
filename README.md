@@ -19,7 +19,7 @@ Download the module and unzip the contents. Place the resulting folder in the th
 6. Switch to Page display.
 7. Add filter criteria Content: type and filter on Article.
 8. Add Global: Text area to Header.
-9. Paste the following code into the text area: <h2>%1</h2>
+9. Paste the following code into the text area: `<h2>%1</h2>`
 10. Save the view.
 11. Go to Administer Blocks and find the Views: Archive block.
 12. Configure the block and set the region to the appropriate region.
