@@ -1,0 +1,15 @@
+name = Tags Cloud
+description = Enable blocks to display tags cloud and archives for blogs.
+core = 7.x
+package = Features
+version = 7.x-1.0-beta1
+dependencies[] = fe_block
+dependencies[] = views
+stylesheets[all][] = css/tags_cloud.css
+features[ctools][] = views:views_default:3.0
+features[fe_block_settings][] = views-archive-block
+features[fe_block_settings][] = views-tags_cloud-block
+features[features_api][] = api:2
+features[views_view][] = blog_archives
+features[views_view][] = tags_cloud
+features_exclude[dependencies][ctools] = ctools

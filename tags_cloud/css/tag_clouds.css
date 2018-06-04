@@ -1,0 +1,17 @@
+/* ==================== */
+/* = Tag Cloud Styles = */
+/* ==================== */
+
+span.tagclouds-term {
+  float: left;
+  clear: both;
+}
+
+#block-views-archive-block .views-summary a::before {
+  display: none;
+}
+
+#block-views-archive-block .views-summary a {
+  display: inline;
+}
+
