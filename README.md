@@ -2,7 +2,8 @@
 The feature provides blocks to display tags cloud and archives for blogs.
 
 ## Install & Configure
-Download the module and unzip the contents. Place the resulting folder in the the sites/all/modules/[features].
+Download the module and unzip the contents. Place the resulting folder in the the sites/all/modules/[features].  
+
 **Tags Cloud**
 
 1. Go to Modules, enable Tags Cloud module.
